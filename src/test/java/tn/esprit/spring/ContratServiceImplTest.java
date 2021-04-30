@@ -25,8 +25,8 @@ public class ContratServiceImplTest {
 	@Test
 	public void testAddOrUpdateCont() throws ParseException {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-		Date d = dateFormat.parse("2021-02-11");
-		String typeContrat="cdi";
+		Date d = dateFormat.parse("2021-09-11");
+		String typeContrat="cdd";
 		float salaire=14;
 		Contrat c = new Contrat(d,typeContrat,salaire); 
 		Contrat addCont = conts.addOrUpdateCont(c);
